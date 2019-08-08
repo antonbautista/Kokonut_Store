@@ -69,6 +69,9 @@ INSTALAR DEPENDENCIAS DE LARAVEL
 cd /var/www/Kokonut_Store
 composer install
 
+INSTALACION DE GUZZLE
+composer require guzzlehttp/guzzle
+
 PROPORCIONAR PERMISOS AL PROYECTO
 chmod 777 -R /var/www/Kokonut_Store
 
@@ -124,7 +127,7 @@ Body   Row
 
 
 
-fin !!
+gracias buen dia !!
 
 
 
