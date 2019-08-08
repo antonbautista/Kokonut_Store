@@ -91,10 +91,40 @@ php artisan migrate
 CARGAR DATOS POS DEFECTO
 php artisan db:seed
 
+ACCEDER DESDE EL NAVEGADOR DE SU PREFERENCIA
+http://localhost
+
+AUTENTICARSE CON SU USUARIO Y CONTRASEÑA
+usuario:antonio@example.com
+contraseña:123456578
+
+CONSULTAR Y REGISTRAR PRODUCTOS DESDE POSTMAN
+URL(Consultamos productos disponibles )
+GET  http://localhost/api/products
+headers
+Content-Type      aplication/json
+
+Bearer Token      91c3f6d839b1b97ddfa4138c4da9a2ff576bb5842848dcec602164a257979d48
+
+----------------------------
+URL (Registramos nuevos productos productos )
+POST  http://localhost/api/products
+headers
+Content-Type      aplication/json
+
+Bearer Token      91c3f6d839b1b97ddfa4138c4da9a2ff576bb5842848dcec602164a257979d48
+
+Body   Row
+
+{
+	"product_name":"Monitor LED",
+    "description":"LG 25UM58 2560 X 1080 Pixeles, color Negro",
+    "total":2
+}
 
 
 
-
+fin !!
 
 
 
